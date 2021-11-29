@@ -4,20 +4,20 @@
         "price": "2.15",
         "plusPrice": "1,69",
         "sku":44999770091,
-        "img": "/assets/img/product1.jpg"
+        "img": "https://assets.bringmeister.de/media/p/44999770091/0/f4e2a408ba0f3aefbfb23d15a7a6f768.jpg"
     },
     {
         "name": "Mango genussreif",
         "price": "1.99",
         "plusPrice": "1.59",
         "sku":395114471,
-        "img": "/assets/img/product2.jpg"
+        "img": "https://assets.bringmeister.de/media/p/395114471/0/6c41015b2e5521018ba4751b056513be.jpg"
     },
     {
-        "name": "Mango genussreif",
+        "name": "Mago Wiener Würstchen",
         "price": "3.55",
         "plusPrice": "3.19",
         "sku":18307710011,
-        "img": "/assets/img/product3.jpg"
+        "img": "https://assets.bringmeister.de/media/p/18307710011/0/5ead79452ae37fda07689648b06f8d6d.jpg"
     }
 ]

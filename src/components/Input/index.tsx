@@ -1,4 +1,6 @@
 
+import './styles.css';
+
 type InputProps = {
     name: string;
     value: string;

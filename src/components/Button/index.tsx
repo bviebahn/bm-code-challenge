@@ -1,4 +1,5 @@
 
+import './styles.css';
 
 type ButtonProps = {
     title: string;
