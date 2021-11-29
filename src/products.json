@@ -1,17 +1,23 @@
 [
     {
-        "name": "Product 1",
-        "price": "2.00",
-        "plusPrice": "1.00"
+        "name": "Leerdammer Original Scheiben 45 % Fett i. Tr.",
+        "price": "2.15",
+        "plusPrice": "1,69",
+        "sku":44999770091,
+        "img": "/assets/img/product1.jpg"
     },
     {
-        "name": "Product 1",
-        "price": "2.00",
-        "plusPrice": "1.00"
+        "name": "Mango genussreif",
+        "price": "1.99",
+        "plusPrice": "1.59",
+        "sku":395114471,
+        "img": "/assets/img/product2.jpg"
     },
     {
-        "name": "Product 1",
-        "price": "2.00",
-        "plusPrice": "1.00"
+        "name": "Mango genussreif",
+        "price": "3.55",
+        "plusPrice": "3.19",
+        "sku":18307710011,
+        "img": "/assets/img/product3.jpg"
     }
 ]
