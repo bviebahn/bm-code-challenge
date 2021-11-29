@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import Button from "../components/Button";
 import Input from "../components/Input";
+import { BM_PLUS_PASSWORD } from '../config';
 
 //
 const MembershipSelection = ({ onSelect }: { onSelect: (value: string ) => void} ) => {
@@ -23,13 +24,10 @@ const MembershipSelection = ({ onSelect }: { onSelect: (value: string ) => void}
 //
 const Home = () => {
 
-	const [, setCustomerPassword ] = useState<string>("");
 	const [selected, setSelected] = useState<boolean>(false);
 
 	const handleSetCustomer = (value: string) => {
-		if(value.length) {
-			setCustomerPassword(value);
-		}
+		//LocalStorage.set("bm_plus_customer", value.length && value === BM_PLUS_PASSWORD ? 1 : 0);
 		setSelected(true);
 	}
 

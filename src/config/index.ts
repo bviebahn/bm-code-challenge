@@ -1,1 +1,1 @@
-export const BMPLUS_PASSWORD = "plus2021";
+export const BM_PLUS_PASSWORD = "plus2021";
