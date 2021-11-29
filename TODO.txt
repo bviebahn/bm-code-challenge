@@ -1,0 +1,9 @@
+
+Here is a simple react app for loyalty program customers, which should show special catalog prices for the plus customers.
+
+TODO:
+
+1. Handle plus customer login with password (check password and save customer status in persistent storage)
+2. Customize product component to show a special price (plus customers only)
+3. Bonus: Implement client side add-to-cart functionality
+4. What would you make different or better in this app?

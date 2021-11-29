@@ -1,0 +1,31 @@
+.productContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebedec;
+    padding: 15px 0px;
+}
+
+.productContainer:last-child {
+    margin-bottom: 0px;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-right: 25px;
+}

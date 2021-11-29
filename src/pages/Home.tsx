@@ -1,20 +1,24 @@
-import { Link } from "react-router-dom";
-import SelectValue from '../components/SelectValue';
-
-
-// 1. Define if value setted in persistent storage, if not show SelectValue component
-// 2. Set value in storage by select value
-// 3. If value already setted redirect user to the Sortiment screen
+import { useState } from 'react';
+import { Navigate } from 'react-router-dom';
+import PlusSelection from '../components/PlusSelection';
 
 const Home = () => {
-  return (
-    <div>
-      <span>Home</span><br />
-      <Link to="/sortiment">Sortiment</Link>
 
-      <SelectValue />
-    </div>
-  );
+	const [selected, setSelected] = useState<boolean>(false);
+	const handleSetCustomer = (_value: string) => setSelected(true);
+
+	if(selected) {
+		return <Navigate replace to="/catalog" />
+	}
+
+	return (
+		<div className="page">
+			<h1>Welcome to Bringmeister Plus</h1>
+			<p>One of the most biggest advantage of our loyalty program is a pricing model.</p>
+			<p>Are you already a PLUS customer?</p>
+			<PlusSelection onSelect={handleSetCustomer}/>
+		</div>
+	);
 };
 
 export default Home;
